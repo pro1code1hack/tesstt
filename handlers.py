@@ -1,6 +1,6 @@
 from console import turn_off_pc
 from internet import google_info
-
+from notepad import save_data
 commands = {
     'turn off pc': turn_off_pc,
     'help': None,
@@ -8,7 +8,7 @@ commands = {
     'google': google_info,
     'random image': None,
     'translate': None,
-    'open notepad': None,
+    'open notepad': save_data,
     'weather': None,
     'currency': None
 }
