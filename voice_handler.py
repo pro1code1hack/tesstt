@@ -25,4 +25,7 @@ def process_audio(recognizer: sr.Recognizer, recorded_audio: sr.AudioData):
         return text.lower()
 
     except Exception as ex:
-        print(ex)
+        return ex
+
+
+
